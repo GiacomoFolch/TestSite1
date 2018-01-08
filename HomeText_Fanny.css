@@ -1,0 +1,237 @@
+/* SPECIFICS FOR WHOLE BODY */
+
+/* this takes out default margins from the web page */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+height 100%
+margin: 0;
+padding: 0;
+font-family: Graphik;
+color: #cecece;
+background-color: black;
+/* background-color: #F0F0F0; */
+/* text-shadow: 0vw 0vw 1vw white;
+background-color: #939393; */
+}
+
+/* FOR GENERAL BOX */
+
+.box {
+position: relative;
+padding: 0;
+margin: 0;
+top: 0px;
+left:0px;
+width: height:100vw;
+height: 100vh;
+background-color: none;
+}
+
+/* IMAGE SPECIFICS */
+
+#HeadImage {
+width: 100%;
+ }
+
+.img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Images {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 1%;
+margin-bottom: 2%;
+width: 100%;
+}
+
+.ImageLeft {
+float:left;
+margin-left: 0%;
+margin-right: 1%;
+margin-top: 1%;
+margin-bottom: 2%;
+width: 49%;
+}
+
+.ImageRight {
+float:left;
+margin-left: 1%;
+margin-right: 0%;
+margin-top: 1%;
+margin-bottom: 2%;
+width: 49%;
+}
+
+.Images90 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+width: 70%; 
+}
+
+.HomeLastImage {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0%;
+margin-bottom: 0%;
+width: 100%;
+/* width: 70%; 
+max-width: 1300px; */
+}
+
+/* PARAGRAPHS SPECIFICS */
+
+.ParagraphTextAbout {
+position: relative;
+font-size: 20px;
+line-height: 27px;
+/* font-size: 15px;
+line-height: 21px; */
+text-align: left;
+width: 60%;
+height: auto;
+padding-top: 0.5%;
+padding-left: 20%;
+padding-right: 20%;
+background-color: none;
+/* background-color: #E8E8E8; */
+}
+
+.ParagraphTextBig {
+position: relative;
+font-size: 30px;
+line-height: 21px;
+text-align: left;
+width: 99.5%;
+height: auto;
+padding-top: 0.5%;
+padding-left: 0.5%;
+background-color: none;
+/* background-color: #E8E8E8; */
+}
+
+
+small { 
+    font-size: 1vw;
+}
+
+.indent1 {
+padding-left:40px;
+}
+
+.indent1firstline {
+text-indent:40px;
+}
+
+.indent2 {
+padding-left:0px;
+}
+
+/* BLOCKS */
+
+.Block {
+position: relative;
+width: 100%;
+height: auto;
+border-left: none;
+border-right: none;
+background-color: red;
+color: none;
+}
+
+/* SPECIFICS FOR LINKS */
+
+/* unvisited link, visited link */
+a:link, a:visited {
+color: black;
+text-decoration: none;
+}
+
+
+/* SPECIFICS FOR SMALLER DEVICES */
+
+/* @media only screen and (max-width : 1000px) { */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+
+.ParagraphText {
+position: relative;
+font-size: 35px;
+line-height: 49px;
+text-align: left;
+width: 98%;
+height: auto;
+padding-top: 2%;
+padding-left: 2%;
+background-color: none;
+}
+
+.ParagraphTextAbout {
+position: relative;
+/* font-size: 40px;
+line-height: 45px; */
+font-size: 45px;
+line-height: 61px;
+text-align: left;
+width: 90%;
+height: auto;
+padding-top: 2%;
+padding-left: 5%;
+padding-right: 2%;
+background-color: none;
+}
+
+.ParagraphTextFixed {
+position: fixed;
+font-size: 35px;
+line-height: 49px;
+width: 98%;
+height: auto;
+top: 0%;
+padding-top: 2%;
+padding-left: 2%;
+background-color: white;
+z-index: 1;
+box-shadow: 0px 0px 15px #888888;
+}
+
+.ParagraphTextFixedTopRight {
+position: fixed;
+font-size: 35px;
+line-height: 49px;
+text-align: right;
+width: 30%;
+height: auto;
+top: 0%;
+padding-top: 2%;
+margin-left: 68%;
+margin-right: auto;
+background-color: none;
+z-index: 1;
+}
+
+.Images90 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+width: 100%;
+}
+
+}
+
+/* End of alternative specifics for smaller screen size */
